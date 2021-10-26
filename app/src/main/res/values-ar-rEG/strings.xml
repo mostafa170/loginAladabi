@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">aladabilogin</string>
 
-    <string name="label_register">تسجيل حساب جديد</string>
+    <string name="label_register">تسجيل</string>
     <string name="label_change_password">تغيير</string>
     <string name="label_login">دخول</string>
     <string name="label_username">الاسم</string>

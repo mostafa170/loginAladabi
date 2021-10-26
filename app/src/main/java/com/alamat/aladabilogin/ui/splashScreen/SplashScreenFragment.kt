@@ -1,4 +1,4 @@
-package com.devartlab.aladabilogin.ui.splashScreen
+package com.alamat.aladabilogin.ui.splashScreen
 
 import android.os.Bundle
 import android.os.Handler
@@ -8,8 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.Navigation
-import com.devartlab.aladabilogin.R
-import com.devartlab.aladabilogin.databinding.FragmentSplashScreenBinding
+import com.alamat.aladabilogin.R
+import com.alamat.aladabilogin.databinding.FragmentSplashScreenBinding
 
 class SplashScreenFragment : Fragment() {
     lateinit var binding: FragmentSplashScreenBinding
@@ -70,9 +70,9 @@ class SplashScreenFragment : Fragment() {
 //            } else {
                        Navigation.findNavController(requireView()).navigate(R.id.action_fragmentSplashScreen_to_loginFragment)
 //            }
-            getActivity()?.finish()
+//            getActivity()?.finish()
         }
-        handler!!.postDelayed(runnable!!, 3000)
+        handler!!.postDelayed(runnable!!, 5000)
     }
 
 }

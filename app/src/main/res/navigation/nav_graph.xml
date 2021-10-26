@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentSplashScreen"
-        android:name="com.devartlab.aladabilogin.ui.splashScreen.SplashScreenFragment"
+        android:name="com.alamat.aladabilogin.ui.splashScreen.SplashScreenFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_splash_screen"
         >
@@ -17,6 +17,6 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.devartlab.aladabilogin.ui.login.LoginFragment"
+        android:name="com.alamat.aladabilogin.ui.login.LoginFragment"
         android:label="LoginFragment" />
 </navigation>

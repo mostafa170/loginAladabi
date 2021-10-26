@@ -19,7 +19,6 @@
             android:padding="20dp"
             app:lottie_autoPlay="true"
             app:lottie_fileName="pckg_loading.json"
-            app:lottie_repeatCount="1000"
             app:lottie_repeatMode="restart" />
 
     </RelativeLayout>

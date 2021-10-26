@@ -1,4 +1,4 @@
-package com.devartlab.aladabilogin
+package com.alamat.aladabilogin
 
 import org.junit.Test
 

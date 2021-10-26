@@ -1,9 +1,9 @@
-package com.devartlab.aladabilogin
+package com.alamat.aladabilogin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.devartlab.aladabilogin.databinding.ActivityMainBinding
+import com.alamat.aladabilogin.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding : ActivityMainBinding
